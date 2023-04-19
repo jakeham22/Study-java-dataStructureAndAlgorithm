@@ -5,6 +5,11 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+# .idea 폴더는 IntelliJ 의 IDE 옵션(프로젝트별 설정값)을 저장하는 폴더 이다.
+  #각 옵션은 작업자의 컴퓨터 환경에 맞춰서 변경된다.
+  #따라서 다른 작업자가 소스를 받을때 영향을 주지않기 위해 .gitignore 에 추가 한다.
+*.idea
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
